@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clase 2</title>
+  <link rel="stylesheet" media="all" href="style.css" />
+</head>
+<body>
+  <header class="Header-nav"> 
+        <h1 class="welcome">Bienvenido a mi Página web Personal</h1>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li class="nav-li"><a href="#Acerca-de-mi">Acerca de mi</a></li>
+                <li class="nav-li"><a href="#Educacion">Educacion</a></li>
+                <li class="nav-li"><a href="#Habilidades">Habilidades</a></li>
+                <li class="nav-li"><a href="#Proyectos">Proyectos</a></li>
+                <li class="nav-li"><a href="#Contactos">Contacto</a></li>
+                <li class="nav-li"><a href="#Contactame">Contactame</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Acerca-de-mi" class="Info-personal">
+        <h2 class="Title">Acerca de mi</h2>
+        <p>Mi nombre es Maximiliano Aballay, y me gustan los desafios en el ambito de la programación.</p>     
+    </section>
+        <div class="Image">
+            <img src="mi-foto.jpg" alt="Mi Foto" width="300px"> 
+        </div> 
+    <section id="Educacion" class="Education">
+        <h2 class="Title">Educacion</h2>
+        <ul>
+            <li>UTN-FRC, Tecnico Superior en Programacion</li>
+            <li>FreeCodeCamp, Desing Resposive Web</li>
+        </ul>
+    </section>  
+    <section id="Habilidades" class="Skills">
+        <h2 class="Title">Habilidades</h2>
+        <ol class="Skills-List">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascrip</li>
+            <li>SQL Server/MySQL</li>
+            <li>C#</li>
+            <li>Assembler</li>
+            <li>Lua</li>
+        </ol>
+    </section>
+    <section id="Proyectos" class="Proyects">
+        <h2 class="Title">Proyectos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="1">Proyectos</th>
+                    <th>Fecha</th>
+                    <th>Lenguajes</th>
+                </tr>
+            </thead>
+            <br>
+            <tbody>
+                <tr>
+                    <td>Windows Form</td>
+                    <td> 2018</td>
+                    <td> C#, SQL Server</td>
+                </tr>
+                <tr>
+                    <td>Aplicacion Web</td>
+                    <td> 2019</td>
+                    <td> HTML, CSS</td>
+                </tr>
+                <tr>
+                    <td>Data Base</td>
+                    <td>2020</td>
+                    <td>MySQL, SQL</td>
+                </tr>
+                <tr>
+                    <td>VideoJuegos</td>
+                    <td>2021</td>
+                    <td>Assembler, Lua</td>
+                </tr>
+                <tr>
+                    <td>Servidores</td>
+                    <td>2022</td>
+                    <td>PHP</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+    <section id="Contactos" class="Contact">
+        <h2 class="Title">Contacto</h2>
+        <address>Correo Electrónico: <a href="MaximilianoAballay@outlook.com.ar">MaximilianoAballay@outlook.com.ar</a><br>
+        Telefono: <a href="+1 323-1345">+1 323 1331-245</a>
+        </address>
+
+    </section>
+
+    <section id="Contactame" class="Contact-me">
+        <form class="Form">
+        <h2 class="Title">Contáctame</h2>
+
+        <label  for="nombre">Nombre:<input type="text" id="nombre" name="nombre
+        " placeholder="Ingrese aquí su nombre" required></label><br><br>
+
+        <label for="correo-electronico">Correo Electronico:<input type="email" id="correo-electronico" name="email" placeholder="Ingrese aquí su email"required></label><br><br>
+
+        <label for="">Asunto:<input type="text" id="asunto" name="asunto"required></label><br><br>
+
+
+        <label for="mensaje">Mensaje:<br><textarea id="mensaje" name="mensaje" rows="5" cols="60"></textarea></label><br><br>
+
+        <input type="submit" id="submit" class="enviar" name="submit">
+    </section>
+    </form>
+    <footer>
+        Copyright (c) 2023. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
